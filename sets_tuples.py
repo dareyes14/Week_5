@@ -119,9 +119,7 @@ and you may call me V."""
 
 
 # Convert the text to a tuple of characters
-
-
-
+Vtuple = tuple(text)
 
 # Tuple to store the target characters
 
@@ -129,14 +127,16 @@ and you may call me V."""
 
 
 
-
 # Count occurrences of 'v' or 'V' by filtering the text_tuple
 
+v_amount = Vtuple.count('v')
+V_amount = Vtuple.count('V')
 
 
 
 # Output the result
-
+Vtotal = (V_amount + v_amount)
+print(Vtotal)
 
 
 
